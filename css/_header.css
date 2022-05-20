@@ -1,0 +1,51 @@
+.header__top {
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 0;
+}
+.logo {
+
+}
+.menu_top {
+    display: flex;
+    justify-content: space-between;
+    max-width: 376px;
+    width: 100%;
+}
+
+.menu_top li{
+
+}
+
+.menu_top li a{
+    display: block;
+    color: #081F35;
+    font-size: 18px;
+    font-weight: 500;
+}
+.menu_top li a:hover {
+    border-bottom: 1px solid #9C4FFF;
+}
+.btns {
+    padding: 0 5px;
+}
+.btn {
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 15px 20px;
+    color: #081F35;
+    border: 1px solid #9C4FFF;
+}
+
+.btn__header {
+    display: block;
+}
+.btn_order:hover {
+
+}

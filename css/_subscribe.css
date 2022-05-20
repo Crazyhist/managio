@@ -1,0 +1,38 @@
+.subscribe {
+}
+.subscribe__container {
+    position: relative;
+}
+.container {
+}
+.subscribe__left {
+    padding: 158px 0 163px 0;
+    max-width: 560px;
+}
+
+.subscribe__left h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    color: #081F35;
+    margin-bottom: 16px;
+}
+
+.subscribe__left p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.subscribe__btn {
+    color: #FFFFFF;
+    background: #9C4FFF;
+    padding: 15px 20px;
+}
+
+.subscribe__img {
+    position: absolute;
+    bottom: -5px;
+    right: -20px;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Managio</title>
+    <link rel="stylesheet" href="/css/_header.css">
+    <link rel="stylesheet" href="/css/_config.css">
+    <link rel="stylesheet" href="/css/_main.css">
+    <link rel="stylesheet" href="/css/_main__descriotion.css">
+    <link rel="stylesheet" href="/css/_service.css">
+    <link rel="stylesheet" href="/css/_cards.css">
+    <link rel="stylesheet" href="/css/_subscribe.css">
+    <link rel="stylesheet" href="/css/_footer.css">
+    <link rel="stylesheet" href="/css/_about.css">
+    <link rel="stylesheet" href="/css/_contacts.css">
+
+    <!-- подключение стилей -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css">
+    <!-- сброс настроек css -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <!-- слайдер -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header__top">
+            <div class="container">
+                <header class="header">
+                    <a href="/html/main.html" class="logo"><img src="/img/icons/MANAGIO.svg" alt=""></a>
+                    <ul class="menu_top">
+                        <li><a href="">Тарифы</a></li>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="">Контакты</a></li>
+                    </ul>
+                    <div class="btns">
+                        <a href="" class="btn btn__header">Пробная версия</a>
+                    </div>
+                </header>
+            </div>
+        </div>
+        <main class="main">
+            <div class="contacts">
+                <div class="contacts__container container">
+                    <div class="contacts__back">
+                        <a href="#" class="">Назад</a>
+                    </div>
+                    <div class="contacts__main">
+                        <div class="contacts__left-block">
+                            <h1>Контакты</h1>
+                            <p class="contacts__addres"><b>Адрес</b> <br>
+                                Ириновский проспект, дом 7 строение 9, БЦ “Аврора” Санкт-Петербург, 195030</p>
+                            <div class="left-block__bottom">
+                                <p class="contacts__phone"> <b> Телефон </b> <br>
+                                    8 (812) 555-55-49</p>
+                                <p class="contacts__email"> <b> Email </b> <br>
+                                    support@managio.ru</p>
+                            </div>
+                        </div>
+
+                        <div id="contacts__1" onclick="return false;"  class="contacts__right-block ">
+                            <input placeholder="Ваше имя" class="contact__input" type="text">
+                            <input placeholder="E-mail" class="contact__input" type="text">
+                            <textarea placeholder="Сообщение" class="contact__textarea" name="" id="" cols="30"
+                                rows="6"></textarea>
+                            <div class="btns contact__btns">
+                                <a id="hider" href="" class="btn contacts__btn">Отправить сообщение</a>
+                            </div>
+                        </div>
+
+                        <div id="contacts__2" class="contacts__right-block contacts__right-second">
+                            <div class="right-second__wrapper">
+                                <img src="/img/icons/ok.svg" alt="">
+                                <h3>Ваше сообщение
+                                    отправлено</h3>
+                                <p>
+                                    Скоро ответим, спасибо!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contacts__bottom-block">
+                        <img src="/img/icons/contacts__bottom.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__top">
+                    <div class="footer__logo"><img src="/img/icons/MANAGIO__footer.svg" alt=""></div>
+                    <div class="footer__contacts">
+                        <a href="#" class=""><img src="/img/icons/facebook.svg" alt=""></a>
+                        <a href="#" class=""><img src="/img/icons/instagram.svg" alt=""></a>
+                        <a href="#" class=""><img src="/img/icons/youtube.svg" alt=""></a>
+                        <a href="#" class=""><img src="/img/icons/instagram1.svg" alt=""></a>
+                        <a href="#" class=""><img src="/img/icons/twitter.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="footer__bottom">
+                    <div class="footer__text">©2022. CRM Managio
+                        Все права защищены.</div>
+                    <div class="footer__text footer__text-right">Политика конфиденциальности</div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script  src="/js/contacts-hider.js"></script>
+</body>
+
+</html>

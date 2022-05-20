@@ -1,0 +1,77 @@
+.about {
+}
+.about__container {
+    position: relative;
+}
+
+.about__back {
+    padding: 30px 0 40px 0;
+}
+.about__back a {
+    padding-left: 34px;
+    background: url(/img/icons/arrow-left.svg) 0 0 no-repeat;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #272742;
+}
+.about__left-block {
+    max-width: 553px;
+}
+
+.about__left-block h1{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 110%;
+    color: #272742;
+    margin-bottom: 40px;
+}
+
+.about__sub-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin-bottom: 24px;
+}
+.about__left-block p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+.about__right-block {
+    display: block;
+    position: absolute;
+    top: 160px;
+    right: 100px;
+}
+.about__stuff-block {
+    padding: 150px 0 86px 0;
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+}
+.about__person {
+    padding-right: 10px;
+}
+.about__person img{
+    border-radius: 4px;
+    margin-bottom: 23px;
+}
+.stuff__name {
+    margin-bottom: 13px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 19px;
+    color: #111111;
+}
+.stuff__prof {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: #666666;
+}

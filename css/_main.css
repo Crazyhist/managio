@@ -1,0 +1,38 @@
+.main {
+
+}
+.main__block {
+    position: relative;
+    min-height: 580px;
+}
+.main__title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    padding: 171px 424px 16px 0;
+}
+.main__text {
+    font-weight: 400;
+    font-size: 18px;
+    padding: 0 592px 0 0;
+    line-height: 120%;
+}
+.main__text a {
+    font-weight: 600;
+    color: #9C4FFF;
+}
+
+.btns__main {
+    padding: 40px 0 0 0;
+}
+
+.btns__main a {
+    color: #FFFFFF;
+    background-color: #9C4FFF;
+}
+.main__img img{
+    position: absolute;
+    left: 514px;
+    top: 62px;
+    max-width: 100%;
+}

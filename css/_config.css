@@ -1,0 +1,30 @@
+body, html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    max-width: 1920px;
+    min-width: 320px;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    max-width: 1110px;
+    margin: 0px auto;
+}
+
+h1 {
+    margin: 0;
+}

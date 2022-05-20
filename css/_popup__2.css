@@ -1,0 +1,26 @@
+.popup {
+}
+.popup__2 {
+    
+    opacity: 0;
+    visibility: hidden;
+}
+.popup__body {
+}
+.popup__content {
+}
+.popup__close {
+}
+.popup__title {
+}
+.popup__input {
+}
+.btn {
+}
+.popup__btn {
+}
+
+.pop_up-2 :target {
+    opacity: 1;
+    visibility: visible;
+}

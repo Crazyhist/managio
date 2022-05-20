@@ -1,0 +1,39 @@
+.main__description {
+    background: #F4F6F8;
+}
+.description__container {
+}
+.description__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 89px 56px 89px 65px;
+}
+.description__left-block {
+}
+.description__img {
+    width: 100%;
+    height: 100%;
+}
+.description__right-block {
+    width: 425px;
+    height: 272px;
+}
+.description__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    color: #000000;
+    margin-bottom: 24px;
+}
+.description__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.description__text a {
+    font-weight: 600;
+    color: #9C4FFF;
+}

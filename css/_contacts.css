@@ -1,0 +1,123 @@
+.contacts {
+}
+
+.contacts__back {
+    padding: 30px 0 40px 0;
+}
+.contacts__back a {
+    padding-left: 34px;
+    background: url(/img/icons/arrow-left.svg) 0 0 no-repeat;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #272742;
+}
+
+.contacts__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contacts__left-block {
+    padding-right: 217px;
+}
+
+.contacts__left-block h1{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 110%;
+    color: #272742;
+    margin-bottom: 90px;
+}
+.left-block__bottom {
+    display: inline-flex;
+    padding-bottom: 197px;
+}
+.contacts__addres {
+    max-width: 456px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+}
+
+.contacts__addres b{
+    line-height: 200%;
+}
+.contacts__phone {
+    margin-right: 127px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.contacts__phone b{
+    line-height: 200%;
+}
+.contacts__email {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.contacts__email b{
+    line-height: 200%;
+}
+.contacts__right-block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 435px;
+}
+
+.contact__input {
+    border: 1px solid #D2D4D9;
+    height: 100%;
+    height: 50px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.contact__textarea {
+    margin-bottom: 15px;
+    border: 1px solid #D2D4D9;
+    border-radius: 4px;
+
+}
+
+.contact__btns {
+    padding: 0;
+}
+
+.contacts__btn { 
+    display: block;
+    text-align: center;
+    background: #9C4FFF;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.contacts__right-second {
+    background: #F4F6F8;
+    padding: 59px 99px;
+    display: none;
+}
+
+.right-second__wrapper img {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 28px;
+}
+
+.right-second__wrapper h3 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    color: #111111;
+    margin-bottom: 11px;
+}
+
+.right-second__wrapper p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    color: #666666;
+}

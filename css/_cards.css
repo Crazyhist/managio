@@ -1,0 +1,83 @@
+.cards {
+    background-color: #24243F;
+}
+.cards__container {
+}
+
+.cards__row {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 0;
+}
+.card {
+    background: #FFFFFF;
+    box-shadow: 0px 28px 30px rgba(178, 178, 178, 0.14);
+    border-radius: 20px;
+    max-width: 338px;
+}
+.card__top {
+    padding: 40px 28px 0 28px;
+}
+.card__description {
+    margin-bottom: 12px;
+}
+.card__top-title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #111111;
+    margin-bottom: 3px;
+}
+.card__top-text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    color: #666666;
+}
+.card__price {
+    display: flex;
+
+}
+.card__digit {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+
+}
+.card__month {
+    margin-left: 12px;
+    padding-top: 23px;
+}
+.card__btn {
+    margin: 24px 0 32px 0;
+}
+.card__btns {
+    padding: 10px 18px;
+    color: #FFFFFF;
+    background: #9C4FFF;
+    font-weight: 600;
+    font-size: 15px;
+}
+.card__bottom {
+    padding: 0 28px 58px 28px;
+}
+.card__list-top {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 170%;
+    letter-spacing: 0.02em;
+    color: #111111;
+    margin-bottom: 8px;
+}
+.card__list-bottom {
+    padding-left: 15px ;
+}
+.card__list-bottom li{
+    list-style-type: disc;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 170%;
+    letter-spacing: 0.02em;
+    color: #111111;
+}
